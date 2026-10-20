@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+_preview.html
+
+# Development-only source images and contact sheets
+scripts/raw/
+scripts/sheets/
+scripts/*.png
+scripts/cover-manifest.json

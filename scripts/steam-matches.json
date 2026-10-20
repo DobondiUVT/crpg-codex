@@ -1,0 +1,2480 @@
+[
+  {
+    "id": "age-of-decadence",
+    "title": "Age of Decadence",
+    "query": "Age of Decadence",
+    "match": {
+      "appid": 230070,
+      "name": "The Age of Decadence",
+      "score": 1.25
+    },
+    "candidates": [
+      {
+        "appid": 230070,
+        "name": "The Age of Decadence",
+        "score": 1.25
+      }
+    ]
+  },
+  {
+    "id": "arcanum-of-steamworks-and-magick-obscura",
+    "title": "Arcanum: Of Steamworks and Magick Obscura",
+    "query": "Arcanum: Of Steamworks and Magick Obscura",
+    "match": {
+      "appid": 500810,
+      "name": "Arcanum: Of Steamworks and Magick Obscura",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 500810,
+        "name": "Arcanum: Of Steamworks and Magick Obscura",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "atom-rpg",
+    "title": "Atom RPG",
+    "query": "Atom RPG",
+    "match": {
+      "appid": 3429280,
+      "name": "ATOM RPG 2",
+      "score": 1.417
+    },
+    "candidates": [
+      {
+        "appid": 3429280,
+        "name": "ATOM RPG 2",
+        "score": 1.417
+      }
+    ]
+  },
+  {
+    "id": "atom-rpg-trudograd",
+    "title": "Atom RPG: Trudograd",
+    "query": "Atom RPG: Trudograd",
+    "match": {
+      "appid": 1139940,
+      "name": "ATOM RPG Trudograd",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1139940,
+        "name": "ATOM RPG Trudograd",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "avadon-the-black-fortress",
+    "title": "Avadon: The Black Fortress",
+    "query": "Avadon: The Black Fortress",
+    "match": {
+      "appid": 112100,
+      "name": "Avadon: The Black Fortress",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 112100,
+        "name": "Avadon: The Black Fortress",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "avadon-2-the-corruption",
+    "title": "Avadon 2: The Corruption",
+    "query": "Avadon 2: The Corruption",
+    "match": {
+      "appid": 233310,
+      "name": "Avadon 2: The Corruption",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 233310,
+        "name": "Avadon 2: The Corruption",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "avadon-3-the-warborn",
+    "title": "Avadon 3: The Warborn",
+    "query": "Avadon 3: The Warborn",
+    "match": {
+      "appid": 460780,
+      "name": "Avadon 3: The Warborn",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 460780,
+        "name": "Avadon 3: The Warborn",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "avernum-escape-from-the-pit",
+    "title": "Avernum: Escape from the Pit",
+    "query": "Avernum: Escape from the Pit",
+    "match": {
+      "appid": 208400,
+      "name": "Avernum: Escape From the Pit",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 208400,
+        "name": "Avernum: Escape From the Pit",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "avernum-2-crystal-souls",
+    "title": "Avernum 2: Crystal Souls",
+    "query": "Avernum 2: Crystal Souls",
+    "match": {
+      "appid": 337850,
+      "name": "Avernum 2: Crystal Souls",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 337850,
+        "name": "Avernum 2: Crystal Souls",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "avernum-3-ruined-world",
+    "title": "Avernum 3: Ruined World",
+    "query": "Avernum 3: Ruined World",
+    "match": {
+      "appid": 691830,
+      "name": "Avernum 3: Ruined World",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 691830,
+        "name": "Avernum 3: Ruined World",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "avernum-4-greed-and-glory",
+    "title": "Avernum 4: Greed and Glory",
+    "query": "Avernum 4: Greed and Glory",
+    "match": {
+      "appid": 3882020,
+      "name": "Avernum 4: Greed and Glory",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 3882020,
+        "name": "Avernum 4: Greed and Glory",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "avernum-5",
+    "title": "Avernum 5",
+    "query": "Avernum 5",
+    "match": {
+      "appid": 206040,
+      "name": "Avernum 5",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 206040,
+        "name": "Avernum 5",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "avernum-6",
+    "title": "Avernum 6",
+    "query": "Avernum 6",
+    "match": {
+      "appid": 206060,
+      "name": "Avernum 6",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 206060,
+        "name": "Avernum 6",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "avernum-the-complete-saga-1-6",
+    "title": "Avernum: The Complete Saga (1–6)",
+    "query": "Avernum: The Complete Saga",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "baldurs-gate-enhanced-edition",
+    "title": "Baldur's Gate: Enhanced Edition",
+    "query": "Baldur's Gate:",
+    "match": {
+      "appid": 228280,
+      "name": "Baldur's Gate: Enhanced Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 228280,
+        "name": "Baldur's Gate: Enhanced Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "baldurs-gate-ii-enhanced-edition",
+    "title": "Baldur's Gate II: Enhanced Edition",
+    "query": "Baldur's Gate II:",
+    "match": {
+      "appid": 257350,
+      "name": "Baldur's Gate II: Enhanced Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 257350,
+        "name": "Baldur's Gate II: Enhanced Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "baldurs-gate-3",
+    "title": "Baldur's Gate 3",
+    "query": "Baldur's Gate 3",
+    "match": {
+      "appid": 1086940,
+      "name": "Baldur's Gate 3",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1086940,
+        "name": "Baldur's Gate 3",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "banquet-for-fools",
+    "title": "Banquet for Fools",
+    "query": "Banquet for Fools",
+    "match": {
+      "appid": 3172700,
+      "name": "Banquet for Fools",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 3172700,
+        "name": "Banquet for Fools",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "betrayal-collection",
+    "title": "Betrayal Collection",
+    "query": "Betrayal Collection",
+    "match": {
+      "appid": 559640,
+      "name": "Betrayal Collection",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 559640,
+        "name": "Betrayal Collection",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "beyond-divinity",
+    "title": "Beyond Divinity",
+    "query": "Beyond Divinity",
+    "match": {
+      "appid": 219760,
+      "name": "Beyond Divinity",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 219760,
+        "name": "Beyond Divinity",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "black-geyser-couriers-of-darkness",
+    "title": "Black Geyser: Couriers of Darkness",
+    "query": "Black Geyser: Couriers of Darkness",
+    "match": {
+      "appid": 1374930,
+      "name": "Black Geyser: Couriers of Darkness",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1374930,
+        "name": "Black Geyser: Couriers of Darkness",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "broken-roads",
+    "title": "Broken Roads",
+    "query": "Broken Roads",
+    "match": {
+      "appid": 1403440,
+      "name": "Broken Roads",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1403440,
+        "name": "Broken Roads",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "caves-of-lore",
+    "title": "Caves of Lore",
+    "query": "Caves of Lore",
+    "match": {
+      "appid": 2227130,
+      "name": "Caves of Lore",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2227130,
+        "name": "Caves of Lore",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "colony-ship-a-post-earth-roleplaying-game",
+    "title": "Colony Ship: A Post-Earth Roleplaying Game",
+    "query": "Colony Ship: A Post-Earth Roleplaying Game",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "dark-envoy",
+    "title": "Dark Envoy",
+    "query": "Dark Envoy",
+    "match": {
+      "appid": 945770,
+      "name": "Dark Envoy",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 945770,
+        "name": "Dark Envoy",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "dawnsbury-days",
+    "title": "Dawnsbury Days",
+    "query": "Dawnsbury Days",
+    "match": {
+      "appid": 2693730,
+      "name": "Dawnsbury Days",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2693730,
+        "name": "Dawnsbury Days",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "disco-elysium-the-final-cut",
+    "title": "Disco Elysium: The Final Cut",
+    "query": "Disco Elysium: The Final Cut",
+    "match": {
+      "appid": 632470,
+      "name": "Disco Elysium - The Final Cut",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 632470,
+        "name": "Disco Elysium - The Final Cut",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "divine-divinity",
+    "title": "Divine Divinity",
+    "query": "Divine Divinity",
+    "match": {
+      "appid": 214170,
+      "name": "Divine Divinity",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 214170,
+        "name": "Divine Divinity",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "divinity-ii-developers-cut",
+    "title": "Divinity II: Developer's Cut",
+    "query": "Divinity II: Developer's Cut",
+    "match": {
+      "appid": 219780,
+      "name": "Divinity II: Developer's Cut",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 219780,
+        "name": "Divinity II: Developer's Cut",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "divinity-original-sin-enhanced-edition",
+    "title": "Divinity: Original Sin — Enhanced Edition",
+    "query": "Divinity: Original Sin",
+    "match": {
+      "appid": 373420,
+      "name": "Divinity: Original Sin - Enhanced Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 373420,
+        "name": "Divinity: Original Sin - Enhanced Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "divinity-original-sin-2-definitive-edition",
+    "title": "Divinity: Original Sin 2 — Definitive Edition",
+    "query": "Divinity: Original Sin 2",
+    "match": {
+      "appid": 435150,
+      "name": "Divinity: Original Sin 2 - Definitive Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 435150,
+        "name": "Divinity: Original Sin 2 - Definitive Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "dragon-age-origins-ultimate-edition",
+    "title": "Dragon Age: Origins — Ultimate Edition",
+    "query": "Dragon Age: Origins",
+    "match": {
+      "appid": 47810,
+      "name": "Dragon Age: Origins - Ultimate Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 47810,
+        "name": "Dragon Age: Origins - Ultimate Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "drakensang",
+    "title": "Drakensang",
+    "query": "Drakensang",
+    "match": {
+      "appid": 12640,
+      "name": "Drakensang",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 12640,
+        "name": "Drakensang",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "drakensang-the-river-of-time",
+    "title": "Drakensang: The River of Time",
+    "query": "Drakensang: The River of Time",
+    "match": {
+      "appid": 33770,
+      "name": "Drakensang: The River of Time",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 33770,
+        "name": "Drakensang: The River of Time",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "drova-forsaken-kin",
+    "title": "Drova: Forsaken Kin",
+    "query": "Drova: Forsaken Kin",
+    "match": {
+      "appid": 1585180,
+      "name": "Drova - Forsaken Kin",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1585180,
+        "name": "Drova - Forsaken Kin",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "dungeons-and-dragons-dark-sun-series",
+    "title": "Dungeons & Dragons: Dark Sun Series",
+    "query": "Dungeons & Dragons: Dark Sun Series",
+    "match": {
+      "appid": 1904580,
+      "name": "Dungeons & Dragons: Dark Sun Series",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1904580,
+        "name": "Dungeons & Dragons: Dark Sun Series",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "dungeons-and-dragons-krynn-series",
+    "title": "Dungeons & Dragons: Krynn Series",
+    "query": "Dungeons & Dragons: Krynn Series",
+    "match": {
+      "appid": 1904610,
+      "name": "Dungeons & Dragons: Krynn Series",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1904610,
+        "name": "Dungeons & Dragons: Krynn Series",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "dungeons-and-dragons-ravenloft-series",
+    "title": "Dungeons & Dragons: Ravenloft Series",
+    "query": "Dungeons & Dragons: Ravenloft Series",
+    "match": {
+      "appid": 1904560,
+      "name": "Dungeons & Dragons: Ravenloft Series",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1904560,
+        "name": "Dungeons & Dragons: Ravenloft Series",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "dungeons-of-chaos",
+    "title": "Dungeons of Chaos",
+    "query": "Dungeons of Chaos",
+    "match": {
+      "appid": 613390,
+      "name": "DUNGEONS OF CHAOS",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 613390,
+        "name": "DUNGEONS OF CHAOS",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "dungeon-of-dragon-knight",
+    "title": "Dungeon of Dragon Knight",
+    "query": "Dungeon of Dragon Knight",
+    "match": {
+      "appid": 823610,
+      "name": "Dungeon Of Dragon Knight",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 823610,
+        "name": "Dungeon Of Dragon Knight",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "elex",
+    "title": "Elex",
+    "query": "Elex",
+    "match": {
+      "appid": 411300,
+      "name": "ELEX",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 411300,
+        "name": "ELEX",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "elex-ii",
+    "title": "Elex II",
+    "query": "Elex II",
+    "match": {
+      "appid": 900040,
+      "name": "ELEX II",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 900040,
+        "name": "ELEX II",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "encased-a-sci-fi-post-apocalyptic-rpg",
+    "title": "Encased: A Sci-Fi Post-Apocalyptic RPG",
+    "query": "Encased: A Sci-Fi Post-Apocalyptic RPG",
+    "match": {
+      "appid": 921800,
+      "name": "Encased: A Sci-Fi Post-Apocalyptic RPG",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 921800,
+        "name": "Encased: A Sci-Fi Post-Apocalyptic RPG",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "eschalon-book-i",
+    "title": "Eschalon: Book I",
+    "query": "Eschalon: Book I",
+    "match": {
+      "appid": 25600,
+      "name": "Eschalon: Book I",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 25600,
+        "name": "Eschalon: Book I",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "eschalon-book-ii",
+    "title": "Eschalon: Book II",
+    "query": "Eschalon: Book II",
+    "match": {
+      "appid": 25620,
+      "name": "Eschalon: Book II",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 25620,
+        "name": "Eschalon: Book II",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "eschalon-book-iii",
+    "title": "Eschalon: Book III",
+    "query": "Eschalon: Book III",
+    "match": {
+      "appid": 257870,
+      "name": "Eschalon: Book III",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 257870,
+        "name": "Eschalon: Book III",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "esoteric-ebb",
+    "title": "Esoteric Ebb",
+    "query": "Esoteric Ebb",
+    "match": {
+      "appid": 2057760,
+      "name": "Esoteric Ebb",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2057760,
+        "name": "Esoteric Ebb",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "expeditions-rome",
+    "title": "Expeditions: Rome",
+    "query": "Expeditions: Rome",
+    "match": {
+      "appid": 987840,
+      "name": "Expeditions: Rome",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 987840,
+        "name": "Expeditions: Rome",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "expeditions-viking",
+    "title": "Expeditions: Viking",
+    "query": "Expeditions: Viking",
+    "match": {
+      "appid": 445190,
+      "name": "Expeditions: Viking",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 445190,
+        "name": "Expeditions: Viking",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "fallout",
+    "title": "Fallout",
+    "query": "Fallout",
+    "match": {
+      "appid": 1151340,
+      "name": "Fallout 76",
+      "score": 1.25
+    },
+    "candidates": [
+      {
+        "appid": 1151340,
+        "name": "Fallout 76",
+        "score": 1.25
+      }
+    ]
+  },
+  {
+    "id": "fallout-2",
+    "title": "Fallout 2",
+    "query": "Fallout 2",
+    "match": {
+      "appid": 38410,
+      "name": "Fallout 2: A Post Nuclear Role Playing Game",
+      "score": 1.083
+    },
+    "candidates": [
+      {
+        "appid": 38410,
+        "name": "Fallout 2: A Post Nuclear Role Playing Game",
+        "score": 1.083
+      }
+    ]
+  },
+  {
+    "id": "fallout-new-vegas",
+    "title": "Fallout: New Vegas",
+    "query": "Fallout: New Vegas",
+    "match": {
+      "appid": 22380,
+      "name": "Fallout: New Vegas",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 22380,
+        "name": "Fallout: New Vegas",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "forgotten-realms-the-archives-collection-one",
+    "title": "Forgotten Realms: The Archives — Collection One",
+    "query": "Forgotten Realms: The Archives",
+    "match": {
+      "appid": 1882240,
+      "name": "Forgotten Realms: The Archives - Collection One",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1882240,
+        "name": "Forgotten Realms: The Archives - Collection One",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "forgotten-realms-the-archives-collection-two",
+    "title": "Forgotten Realms: The Archives — Collection Two",
+    "query": "Forgotten Realms: The Archives",
+    "match": {
+      "appid": 1882280,
+      "name": "Forgotten Realms: The Archives - Collection Two",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1882280,
+        "name": "Forgotten Realms: The Archives - Collection Two",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "forgotten-realms-the-archives-collection-three",
+    "title": "Forgotten Realms: The Archives — Collection Three",
+    "query": "Forgotten Realms: The Archives",
+    "match": {
+      "appid": 1904530,
+      "name": "Forgotten Realms: The Archives - Collection Three",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1904530,
+        "name": "Forgotten Realms: The Archives - Collection Three",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "geneforge-1-mutagen",
+    "title": "Geneforge 1 — Mutagen",
+    "query": "Geneforge 1",
+    "match": {
+      "appid": 1424710,
+      "name": "Geneforge 1 - Mutagen",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1424710,
+        "name": "Geneforge 1 - Mutagen",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "geneforge-2-infestation",
+    "title": "Geneforge 2 — Infestation",
+    "query": "Geneforge 2",
+    "match": {
+      "appid": 2480560,
+      "name": "Geneforge 2 - Infestation",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2480560,
+        "name": "Geneforge 2 - Infestation",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "geneforge-saga",
+    "title": "Geneforge Saga",
+    "query": "Geneforge Saga",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "gothic",
+    "title": "Gothic",
+    "query": "Gothic",
+    "match": {
+      "appid": 65540,
+      "name": "Gothic 1 Classic",
+      "score": 1.25
+    },
+    "candidates": [
+      {
+        "appid": 65540,
+        "name": "Gothic 1 Classic",
+        "score": 1.25
+      }
+    ]
+  },
+  {
+    "id": "gothic-ii-gold-edition",
+    "title": "Gothic II: Gold Edition",
+    "query": "Gothic II: Gold Edition",
+    "match": {
+      "appid": 39510,
+      "name": "Gothic II: Gold Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 39510,
+        "name": "Gothic II: Gold Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "gothic-3",
+    "title": "Gothic 3",
+    "query": "Gothic 3",
+    "match": {
+      "appid": 39500,
+      "name": "Gothic 3 Classic",
+      "score": 1.75
+    },
+    "candidates": [
+      {
+        "appid": 39500,
+        "name": "Gothic 3 Classic",
+        "score": 1.75
+      }
+    ]
+  },
+  {
+    "id": "greedfall",
+    "title": "GreedFall",
+    "query": "GreedFall",
+    "match": {
+      "appid": 606880,
+      "name": "GreedFall",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 606880,
+        "name": "GreedFall",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "greedfall-the-dying-world",
+    "title": "GreedFall: The Dying World",
+    "query": "GreedFall: The Dying World",
+    "match": {
+      "appid": 1997660,
+      "name": "GreedFall: The Dying World",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1997660,
+        "name": "GreedFall: The Dying World",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "grimoire-heralds-of-the-winged-exemplar",
+    "title": "Grimoire: Heralds of the Winged Exemplar",
+    "query": "Grimoire: Heralds of the Winged Exemplar",
+    "match": {
+      "appid": 650670,
+      "name": "Grimoire : Heralds of the Winged Exemplar (V2)",
+      "score": 1.55
+    },
+    "candidates": [
+      {
+        "appid": 650670,
+        "name": "Grimoire : Heralds of the Winged Exemplar (V2)",
+        "score": 1.55
+      }
+    ]
+  },
+  {
+    "id": "heroes-of-the-monkey-tavern",
+    "title": "Heroes of the Monkey Tavern",
+    "query": "Heroes of the Monkey Tavern",
+    "match": {
+      "appid": 492500,
+      "name": "Heroes of the Monkey Tavern",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 492500,
+        "name": "Heroes of the Monkey Tavern",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "icewind-dale-enhanced-edition",
+    "title": "Icewind Dale: Enhanced Edition",
+    "query": "Icewind Dale:",
+    "match": {
+      "appid": 321800,
+      "name": "Icewind Dale: Enhanced Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 321800,
+        "name": "Icewind Dale: Enhanced Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "icewind-dale-ii",
+    "title": "Icewind Dale II",
+    "query": "Icewind Dale II",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "islands-of-the-caliph",
+    "title": "Islands of the Caliph",
+    "query": "Islands of the Caliph",
+    "match": {
+      "appid": 1845670,
+      "name": "Islands of the Caliph",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1845670,
+        "name": "Islands of the Caliph",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "jade-empire-special-edition",
+    "title": "Jade Empire: Special Edition",
+    "query": "Jade Empire: Special Edition",
+    "match": {
+      "appid": 7110,
+      "name": "Jade Empire™: Special Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 7110,
+        "name": "Jade Empire™: Special Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "knights-of-the-chalice",
+    "title": "Knights of the Chalice",
+    "query": "Knights of the Chalice",
+    "match": {
+      "appid": 1083760,
+      "name": "Knights of the Chalice",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1083760,
+        "name": "Knights of the Chalice",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "knights-of-the-chalice-2",
+    "title": "Knights of the Chalice 2",
+    "query": "Knights of the Chalice 2",
+    "match": {
+      "appid": 1233530,
+      "name": "Knights of the Chalice 2",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1233530,
+        "name": "Knights of the Chalice 2",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "lands-of-lore-1-2",
+    "title": "Lands of Lore 1+2",
+    "query": "Lands of Lore 1+2",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "legend-of-grimrock",
+    "title": "Legend of Grimrock",
+    "query": "Legend of Grimrock",
+    "match": {
+      "appid": 207170,
+      "name": "Legend of Grimrock",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 207170,
+        "name": "Legend of Grimrock",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "legend-of-grimrock-2",
+    "title": "Legend of Grimrock 2",
+    "query": "Legend of Grimrock 2",
+    "match": {
+      "appid": 251730,
+      "name": "Legend of Grimrock 2",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 251730,
+        "name": "Legend of Grimrock 2",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "legends-of-amberland-the-forgotten-crown",
+    "title": "Legends of Amberland: The Forgotten Crown",
+    "query": "Legends of Amberland: The Forgotten Crown",
+    "match": {
+      "appid": 873890,
+      "name": "Legends of Amberland: The Forgotten Crown",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 873890,
+        "name": "Legends of Amberland: The Forgotten Crown",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "legends-of-amberland-ii-the-song-of-trees",
+    "title": "Legends of Amberland II: The Song of Trees",
+    "query": "Legends of Amberland II: The Song of Trees",
+    "match": {
+      "appid": 2110840,
+      "name": "Legends of Amberland II: The Song of Trees",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2110840,
+        "name": "Legends of Amberland II: The Song of Trees",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "legends-of-amberland-iii-the-crimson-tower",
+    "title": "Legends of Amberland III: The Crimson Tower",
+    "query": "Legends of Amberland III: The Crimson Tower",
+    "match": {
+      "appid": 3823520,
+      "name": "Legends of Amberland III: The Crimson Tower",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 3823520,
+        "name": "Legends of Amberland III: The Crimson Tower",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "lionheart-legacy-of-the-crusader",
+    "title": "Lionheart: Legacy of the Crusader",
+    "query": "Lionheart: Legacy of the Crusader",
+    "match": {
+      "appid": 595060,
+      "name": "Lionheart: Legacy of the Crusader",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 595060,
+        "name": "Lionheart: Legacy of the Crusader",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "lords-of-xulima",
+    "title": "Lords of Xulima",
+    "query": "Lords of Xulima",
+    "match": {
+      "appid": 296570,
+      "name": "Lords of Xulima",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 296570,
+        "name": "Lords of Xulima",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "mechajammer",
+    "title": "Mechajammer",
+    "query": "Mechajammer",
+    "match": {
+      "appid": 485400,
+      "name": "Mechajammer",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 485400,
+        "name": "Mechajammer",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "might-and-magic-6-pack-limited-edition",
+    "title": "Might and Magic 6-Pack Limited Edition",
+    "query": "Might and Magic 6-Pack Limited Edition",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "might-and-magic-vii-for-blood-and-honor",
+    "title": "Might and Magic VII: For Blood and Honor",
+    "query": "Might and Magic VII: For Blood and Honor",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "might-and-magic-viii-day-of-the-destroyer",
+    "title": "Might and Magic VIII: Day of the Destroyer",
+    "query": "Might and Magic VIII: Day of the Destroyer",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "might-and-magic-ix",
+    "title": "Might and Magic IX",
+    "query": "Might and Magic IX",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "might-and-magic-x-legacy",
+    "title": "Might & Magic X — Legacy",
+    "query": "Might & Magic X",
+    "match": {
+      "appid": 238750,
+      "name": "Might & Magic X - Legacy",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 238750,
+        "name": "Might & Magic X - Legacy",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "moonring",
+    "title": "Moonring",
+    "query": "Moonring",
+    "match": {
+      "appid": 2373630,
+      "name": "Moonring",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2373630,
+        "name": "Moonring",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "nethergate-resurrection",
+    "title": "Nethergate: Resurrection",
+    "query": "Nethergate: Resurrection",
+    "match": {
+      "appid": 218020,
+      "name": "Nethergate: Resurrection",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 218020,
+        "name": "Nethergate: Resurrection",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "neverwinter-nights-enhanced-edition",
+    "title": "Neverwinter Nights: Enhanced Edition",
+    "query": "Neverwinter Nights:",
+    "match": {
+      "appid": 704450,
+      "name": "Neverwinter Nights: Enhanced Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 704450,
+        "name": "Neverwinter Nights: Enhanced Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "neverwinter-nights-2",
+    "title": "Neverwinter Nights 2",
+    "query": "Neverwinter Nights 2",
+    "match": {
+      "appid": 2738630,
+      "name": "Dungeons & Dragons Neverwinter Nights 2: Enhanced Edition",
+      "score": 0.85
+    },
+    "candidates": [
+      {
+        "appid": 2738630,
+        "name": "Dungeons & Dragons Neverwinter Nights 2: Enhanced Edition",
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "neverwinter-nights-2-enhanced-edition",
+    "title": "Neverwinter Nights 2: Enhanced Edition",
+    "query": "Neverwinter Nights 2:",
+    "match": {
+      "appid": 2738630,
+      "name": "Dungeons & Dragons Neverwinter Nights 2: Enhanced Edition",
+      "score": 0.85
+    },
+    "candidates": [
+      {
+        "appid": 2738630,
+        "name": "Dungeons & Dragons Neverwinter Nights 2: Enhanced Edition",
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "nox-archaist",
+    "title": "Nox Archaist",
+    "query": "Nox Archaist",
+    "match": {
+      "appid": 1509080,
+      "name": "Nox Archaist",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1509080,
+        "name": "Nox Archaist",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "operencia-the-stolen-sun",
+    "title": "Operencia: The Stolen Sun",
+    "query": "Operencia: The Stolen Sun",
+    "match": {
+      "appid": 985950,
+      "name": "Operencia: The Stolen Sun",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 985950,
+        "name": "Operencia: The Stolen Sun",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "passageway-of-the-ancients",
+    "title": "Passageway of the Ancients",
+    "query": "Passageway of the Ancients",
+    "match": {
+      "appid": 1014260,
+      "name": "Passageway of the Ancients",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1014260,
+        "name": "Passageway of the Ancients",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "pathfinder-kingmaker-enhanced-plus-edition",
+    "title": "Pathfinder: Kingmaker — Enhanced Plus Edition",
+    "query": "Pathfinder: Kingmaker",
+    "match": {
+      "appid": 640820,
+      "name": "Pathfinder: Kingmaker — Enhanced Plus Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 640820,
+        "name": "Pathfinder: Kingmaker — Enhanced Plus Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "pathfinder-wrath-of-the-righteous-enhanced-edition",
+    "title": "Pathfinder: Wrath of the Righteous — Enhanced Edition",
+    "query": "Pathfinder: Wrath of the Righteous",
+    "match": {
+      "appid": 1184370,
+      "name": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1184370,
+        "name": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "pillars-of-eternity",
+    "title": "Pillars of Eternity",
+    "query": "Pillars of Eternity",
+    "match": {
+      "appid": 291650,
+      "name": "Pillars of Eternity",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 291650,
+        "name": "Pillars of Eternity",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "pillars-of-eternity-ii-deadfire",
+    "title": "Pillars of Eternity II: Deadfire",
+    "query": "Pillars of Eternity II: Deadfire",
+    "match": {
+      "appid": 560130,
+      "name": "Pillars of Eternity II: Deadfire",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 560130,
+        "name": "Pillars of Eternity II: Deadfire",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "planescape-torment-enhanced-edition",
+    "title": "Planescape: Torment — Enhanced Edition",
+    "query": "Planescape: Torment",
+    "match": {
+      "appid": 466300,
+      "name": "Planescape: Torment: Enhanced Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 466300,
+        "name": "Planescape: Torment: Enhanced Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "prince-of-qin",
+    "title": "Prince of Qin",
+    "query": "Prince of Qin",
+    "match": {
+      "appid": 1717410,
+      "name": "Prince of Qin",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1717410,
+        "name": "Prince of Qin",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "queens-wish-the-conqueror",
+    "title": "Queen's Wish: The Conqueror",
+    "query": "Queen's Wish: The Conqueror",
+    "match": {
+      "appid": 1058130,
+      "name": "Queen's Wish: The Conqueror",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1058130,
+        "name": "Queen's Wish: The Conqueror",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "queens-wish-2-the-tormentor",
+    "title": "Queen's Wish 2: The Tormentor",
+    "query": "Queen's Wish 2: The Tormentor",
+    "match": {
+      "appid": 1947750,
+      "name": "Queen's Wish 2: The Tormentor",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1947750,
+        "name": "Queen's Wish 2: The Tormentor",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "realms-of-antiquity-the-shattered-crown",
+    "title": "Realms of Antiquity: The Shattered Crown",
+    "query": "Realms of Antiquity: The Shattered Crown",
+    "match": {
+      "appid": 1539750,
+      "name": "Realms of Antiquity: The Shattered Crown",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1539750,
+        "name": "Realms of Antiquity: The Shattered Crown",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "realms-of-arkania-1-blade-of-destiny-classic",
+    "title": "Realms of Arkania 1 — Blade of Destiny Classic",
+    "query": "Realms of Arkania 1",
+    "match": {
+      "appid": 267670,
+      "name": "Realms of Arkania 1 - Blade of Destiny Classic",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 267670,
+        "name": "Realms of Arkania 1 - Blade of Destiny Classic",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "realms-of-arkania-2-star-trail-classic",
+    "title": "Realms of Arkania 2 — Star Trail Classic",
+    "query": "Realms of Arkania 2",
+    "match": {
+      "appid": 270750,
+      "name": "Realms of Arkania 2 - Star Trail Classic",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 270750,
+        "name": "Realms of Arkania 2 - Star Trail Classic",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "realms-of-arkania-3-shadows-over-riva-classic",
+    "title": "Realms of Arkania 3 — Shadows over Riva Classic",
+    "query": "Realms of Arkania 3",
+    "match": {
+      "appid": 270760,
+      "name": "Realms of Arkania 3 - Shadows over Riva Classic",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 270760,
+        "name": "Realms of Arkania 3 - Shadows over Riva Classic",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "realms-of-arkania-blade-of-destiny",
+    "title": "Realms of Arkania: Blade of Destiny",
+    "query": "Realms of Arkania: Blade of Destiny",
+    "match": {
+      "appid": 237550,
+      "name": "Realms of Arkania: Blade of Destiny",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 237550,
+        "name": "Realms of Arkania: Blade of Destiny",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "realms-of-arkania-star-trail",
+    "title": "Realms of Arkania: Star Trail",
+    "query": "Realms of Arkania: Star Trail",
+    "match": {
+      "appid": 288860,
+      "name": "Realms of Arkania: Star Trail",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 288860,
+        "name": "Realms of Arkania: Star Trail",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "risen",
+    "title": "Risen",
+    "query": "Risen",
+    "match": {
+      "appid": 40300,
+      "name": "Risen",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 40300,
+        "name": "Risen",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "risen-2-dark-waters",
+    "title": "Risen 2: Dark Waters",
+    "query": "Risen 2: Dark Waters",
+    "match": {
+      "appid": 40390,
+      "name": "Risen 2: Dark Waters",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 40390,
+        "name": "Risen 2: Dark Waters",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "risen-3-titan-lords",
+    "title": "Risen 3: Titan Lords",
+    "query": "Risen 3: Titan Lords",
+    "match": {
+      "appid": 249230,
+      "name": "Risen 3 - Titan Lords",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 249230,
+        "name": "Risen 3 - Titan Lords",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "sector-unknown",
+    "title": "Sector Unknown",
+    "query": "Sector Unknown",
+    "match": {
+      "appid": 2734270,
+      "name": "Sector Unknown",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2734270,
+        "name": "Sector Unknown",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "serpent-in-the-staglands",
+    "title": "Serpent in the Staglands",
+    "query": "Serpent in the Staglands",
+    "match": {
+      "appid": 335120,
+      "name": "Serpent in the Staglands",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 335120,
+        "name": "Serpent in the Staglands",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "seven-enhanced-edition",
+    "title": "Seven: Enhanced Edition",
+    "query": "Seven:",
+    "match": {
+      "appid": 471010,
+      "name": "Seven: Enhanced Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 471010,
+        "name": "Seven: Enhanced Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "shadowrun-returns",
+    "title": "Shadowrun Returns",
+    "query": "Shadowrun Returns",
+    "match": {
+      "appid": 234650,
+      "name": "Shadowrun Returns",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 234650,
+        "name": "Shadowrun Returns",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "shadowrun-dragonfall-directors-cut",
+    "title": "Shadowrun: Dragonfall — Director's Cut",
+    "query": "Shadowrun: Dragonfall",
+    "match": {
+      "appid": 300550,
+      "name": "Shadowrun: Dragonfall - Director's Cut",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 300550,
+        "name": "Shadowrun: Dragonfall - Director's Cut",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "shadowrun-hong-kong-extended-edition",
+    "title": "Shadowrun: Hong Kong — Extended Edition",
+    "query": "Shadowrun: Hong Kong",
+    "match": {
+      "appid": 346940,
+      "name": "Shadowrun: Hong Kong - Extended Edition",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 346940,
+        "name": "Shadowrun: Hong Kong - Extended Edition",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "skald-against-the-black-priory",
+    "title": "SKALD: Against the Black Priory",
+    "query": "SKALD: Against the Black Priory",
+    "match": {
+      "appid": 1069160,
+      "name": "SKALD: Against the Black Priory",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1069160,
+        "name": "SKALD: Against the Black Priory",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "solasta-crown-of-the-magister",
+    "title": "Solasta: Crown of the Magister",
+    "query": "Solasta: Crown of the Magister",
+    "match": {
+      "appid": 1096530,
+      "name": "Solasta: Crown of the Magister",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1096530,
+        "name": "Solasta: Crown of the Magister",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "space-wreck",
+    "title": "Space Wreck",
+    "query": "Space Wreck",
+    "match": {
+      "appid": 1063540,
+      "name": "Space Wreck",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1063540,
+        "name": "Space Wreck",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "spelljammer-pirates-of-realmspace",
+    "title": "Spelljammer: Pirates of Realmspace",
+    "query": "Spelljammer: Pirates of Realmspace",
+    "match": {
+      "appid": 2350550,
+      "name": "Spelljammer: Pirates of Realmspace",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2350550,
+        "name": "Spelljammer: Pirates of Realmspace",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "starcrawlers",
+    "title": "StarCrawlers",
+    "query": "StarCrawlers",
+    "match": {
+      "appid": 318970,
+      "name": "StarCrawlers",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 318970,
+        "name": "StarCrawlers",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "star-wars-knights-of-the-old-republic",
+    "title": "Star Wars: Knights of the Old Republic",
+    "query": "Star Wars: Knights of the Old Republic",
+    "match": {
+      "appid": 32370,
+      "name": "STAR WARS™ Knights of the Old Republic™",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 32370,
+        "name": "STAR WARS™ Knights of the Old Republic™",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+    "title": "Star Wars: Knights of the Old Republic II — The Sith Lords",
+    "query": "Star Wars: Knights of the Old Republic II",
+    "match": {
+      "appid": 208580,
+      "name": "STAR WARS™ Knights of the Old Republic™ II - The Sith Lords™",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 208580,
+        "name": "STAR WARS™ Knights of the Old Republic™ II - The Sith Lords™",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "swordhaven-iron-conspiracy",
+    "title": "Swordhaven: Iron Conspiracy",
+    "query": "Swordhaven: Iron Conspiracy",
+    "match": {
+      "appid": 2108180,
+      "name": "Swordhaven: Iron Conspiracy",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2108180,
+        "name": "Swordhaven: Iron Conspiracy",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "the-bards-tale-trilogy",
+    "title": "The Bard's Tale Trilogy",
+    "query": "The Bard's Tale Trilogy",
+    "match": {
+      "appid": 843260,
+      "name": "The Bard's Tale Trilogy",
+      "score": 2.5
+    },
+    "candidates": [
+      {
+        "appid": 843260,
+        "name": "The Bard's Tale Trilogy",
+        "score": 2.5
+      }
+    ]
+  },
+  {
+    "id": "the-bards-tale-iv-directors-cut",
+    "title": "The Bard's Tale IV — Director's Cut",
+    "query": "The Bard's Tale IV",
+    "match": {
+      "appid": 1091980,
+      "name": "The Bard's Tale IV: Director's Cut",
+      "score": 2.5
+    },
+    "candidates": [
+      {
+        "appid": 1091980,
+        "name": "The Bard's Tale IV: Director's Cut",
+        "score": 2.5
+      }
+    ]
+  },
+  {
+    "id": "the-elder-scrolls-arena",
+    "title": "The Elder Scrolls: Arena",
+    "query": "The Elder Scrolls: Arena",
+    "match": {
+      "appid": 1812290,
+      "name": "The Elder Scrolls: Arena",
+      "score": 2.5
+    },
+    "candidates": [
+      {
+        "appid": 1812290,
+        "name": "The Elder Scrolls: Arena",
+        "score": 2.5
+      }
+    ]
+  },
+  {
+    "id": "the-elder-scrolls-ii-daggerfall",
+    "title": "The Elder Scrolls II: Daggerfall",
+    "query": "The Elder Scrolls II: Daggerfall",
+    "match": {
+      "appid": 1812390,
+      "name": "The Elder Scrolls II: Daggerfall",
+      "score": 2.5
+    },
+    "candidates": [
+      {
+        "appid": 1812390,
+        "name": "The Elder Scrolls II: Daggerfall",
+        "score": 2.5
+      }
+    ]
+  },
+  {
+    "id": "the-elder-scrolls-iii-morrowind-game-of-the-year-edition",
+    "title": "The Elder Scrolls III: Morrowind — Game of the Year Edition",
+    "query": "The Elder Scrolls III: Morrowind",
+    "match": {
+      "appid": 22320,
+      "name": "The Elder Scrolls III: Morrowind® Game of the Year Edition",
+      "score": 2.5
+    },
+    "candidates": [
+      {
+        "appid": 22320,
+        "name": "The Elder Scrolls III: Morrowind® Game of the Year Edition",
+        "score": 2.5
+      }
+    ]
+  },
+  {
+    "id": "the-temple-of-elemental-evil",
+    "title": "The Temple of Elemental Evil",
+    "query": "The Temple of Elemental Evil",
+    "match": {
+      "appid": 3843520,
+      "name": "The Temple of Elemental Evil",
+      "score": 2.5
+    },
+    "candidates": [
+      {
+        "appid": 3843520,
+        "name": "The Temple of Elemental Evil",
+        "score": 2.5
+      }
+    ]
+  },
+  {
+    "id": "the-temple-of-elemental-evil-re-release",
+    "title": "The Temple of Elemental Evil — Re-Release",
+    "query": "The Temple of Elemental Evil",
+    "match": {
+      "appid": 3843520,
+      "name": "The Temple of Elemental Evil",
+      "score": 1.6
+    },
+    "candidates": [
+      {
+        "appid": 3843520,
+        "name": "The Temple of Elemental Evil",
+        "score": 1.6
+      }
+    ]
+  },
+  {
+    "id": "the-quest",
+    "title": "The Quest",
+    "query": "The Quest",
+    "match": {
+      "appid": 428880,
+      "name": "The Quest",
+      "score": 2.5
+    },
+    "candidates": [
+      {
+        "appid": 428880,
+        "name": "The Quest",
+        "score": 2.5
+      }
+    ]
+  },
+  {
+    "id": "torment-tides-of-numenera",
+    "title": "Torment: Tides of Numenera",
+    "query": "Torment: Tides of Numenera",
+    "match": {
+      "appid": 272270,
+      "name": "Torment: Tides of Numenera",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 272270,
+        "name": "Torment: Tides of Numenera",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "tyranny",
+    "title": "Tyranny",
+    "query": "Tyranny",
+    "match": {
+      "appid": 362960,
+      "name": "Tyranny",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 362960,
+        "name": "Tyranny",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "ultima-1-2-3",
+    "title": "Ultima 1+2+3",
+    "query": "Ultima 1+2+3",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "ultima-iv-quest-of-the-avatar",
+    "title": "Ultima IV: Quest of the Avatar",
+    "query": "Ultima IV: Quest of the Avatar",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "ultima-4-5-6",
+    "title": "Ultima 4+5+6",
+    "query": "Ultima 4+5+6",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "ultima-vii-the-complete-edition",
+    "title": "Ultima VII: The Complete Edition",
+    "query": "Ultima VII: The Complete Edition",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "ultima-underworld-1-2",
+    "title": "Ultima Underworld 1+2",
+    "query": "Ultima Underworld 1+2",
+    "match": null,
+    "candidates": []
+  },
+  {
+    "id": "underrail",
+    "title": "Underrail",
+    "query": "Underrail",
+    "match": {
+      "appid": 250520,
+      "name": "UnderRail",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 250520,
+        "name": "UnderRail",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "vampire-the-masquerade-bloodlines",
+    "title": "Vampire: The Masquerade — Bloodlines",
+    "query": "Vampire: The Masquerade",
+    "match": {
+      "appid": 2600,
+      "name": "Vampire: The Masquerade - Bloodlines",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2600,
+        "name": "Vampire: The Masquerade - Bloodlines",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "vaporum",
+    "title": "Vaporum",
+    "query": "Vaporum",
+    "match": {
+      "appid": 629690,
+      "name": "Vaporum",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 629690,
+        "name": "Vaporum",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "vaporum-lockdown",
+    "title": "Vaporum: Lockdown",
+    "query": "Vaporum: Lockdown",
+    "match": {
+      "appid": 1161880,
+      "name": "Vaporum: Lockdown",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1161880,
+        "name": "Vaporum: Lockdown",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "vendir-plague-of-lies",
+    "title": "Vendir: Plague of Lies",
+    "query": "Vendir: Plague of Lies",
+    "match": {
+      "appid": 1478850,
+      "name": "Vendir: Plague of Lies",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1478850,
+        "name": "Vendir: Plague of Lies",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "warhammer-40-000-rogue-trader",
+    "title": "Warhammer 40,000: Rogue Trader",
+    "query": "Warhammer 40,000: Rogue Trader",
+    "match": {
+      "appid": 2186680,
+      "name": "Warhammer 40,000: Rogue Trader",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2186680,
+        "name": "Warhammer 40,000: Rogue Trader",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "wasteland-1-the-original-classic",
+    "title": "Wasteland 1 — The Original Classic",
+    "query": "Wasteland 1",
+    "match": {
+      "appid": 259130,
+      "name": "Wasteland 1 - The Original Classic",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 259130,
+        "name": "Wasteland 1 - The Original Classic",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "wasteland-remastered",
+    "title": "Wasteland Remastered",
+    "query": "Wasteland Remastered",
+    "match": {
+      "appid": 875800,
+      "name": "Wasteland Remastered",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 875800,
+        "name": "Wasteland Remastered",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "wasteland-2-directors-cut",
+    "title": "Wasteland 2 — Director's Cut",
+    "query": "Wasteland 2",
+    "match": {
+      "appid": 240760,
+      "name": "Wasteland 2: Director's Cut",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 240760,
+        "name": "Wasteland 2: Director's Cut",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "wasteland-3",
+    "title": "Wasteland 3",
+    "query": "Wasteland 3",
+    "match": {
+      "appid": 719040,
+      "name": "Wasteland 3",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 719040,
+        "name": "Wasteland 3",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "wizardry-proving-grounds-of-the-mad-overlord",
+    "title": "Wizardry: Proving Grounds of the Mad Overlord",
+    "query": "Wizardry: Proving Grounds of the Mad Overlord",
+    "match": {
+      "appid": 2518960,
+      "name": "Wizardry: Proving Grounds of the Mad Overlord",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 2518960,
+        "name": "Wizardry: Proving Grounds of the Mad Overlord",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "wizardry-6-bane-of-the-cosmic-forge",
+    "title": "Wizardry 6: Bane of the Cosmic Forge",
+    "query": "Wizardry 6: Bane of the Cosmic Forge",
+    "match": {
+      "appid": 245410,
+      "name": "Wizardry 6: Bane of the Cosmic Forge",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 245410,
+        "name": "Wizardry 6: Bane of the Cosmic Forge",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "wizardry-7-crusaders-of-the-dark-savant",
+    "title": "Wizardry 7: Crusaders of the Dark Savant",
+    "query": "Wizardry 7: Crusaders of the Dark Savant",
+    "match": {
+      "appid": 245430,
+      "name": "Wizardry 7: Crusaders of the Dark Savant",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 245430,
+        "name": "Wizardry 7: Crusaders of the Dark Savant",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "wizardry-8",
+    "title": "Wizardry 8",
+    "query": "Wizardry 8",
+    "match": {
+      "appid": 245450,
+      "name": "Wizardry 8",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 245450,
+        "name": "Wizardry 8",
+        "score": 2.65
+      }
+    ]
+  },
+  {
+    "id": "wizardry-the-five-ordeals",
+    "title": "Wizardry: The Five Ordeals",
+    "query": "Wizardry: The Five Ordeals",
+    "match": {
+      "appid": 1308700,
+      "name": "Wizardry: The Five Ordeals",
+      "score": 2.65
+    },
+    "candidates": [
+      {
+        "appid": 1308700,
+        "name": "Wizardry: The Five Ordeals",
+        "score": 2.65
+      }
+    ]
+  }
+]

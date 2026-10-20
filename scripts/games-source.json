@@ -1,0 +1,618 @@
+[
+  {
+    "id": "age-of-decadence",
+    "title": "Age of Decadence"
+  },
+  {
+    "id": "arcanum-of-steamworks-and-magick-obscura",
+    "title": "Arcanum: Of Steamworks and Magick Obscura"
+  },
+  {
+    "id": "atom-rpg",
+    "title": "Atom RPG"
+  },
+  {
+    "id": "atom-rpg-trudograd",
+    "title": "Atom RPG: Trudograd"
+  },
+  {
+    "id": "avadon-the-black-fortress",
+    "title": "Avadon: The Black Fortress"
+  },
+  {
+    "id": "avadon-2-the-corruption",
+    "title": "Avadon 2: The Corruption"
+  },
+  {
+    "id": "avadon-3-the-warborn",
+    "title": "Avadon 3: The Warborn"
+  },
+  {
+    "id": "avernum-escape-from-the-pit",
+    "title": "Avernum: Escape from the Pit"
+  },
+  {
+    "id": "avernum-2-crystal-souls",
+    "title": "Avernum 2: Crystal Souls"
+  },
+  {
+    "id": "avernum-3-ruined-world",
+    "title": "Avernum 3: Ruined World"
+  },
+  {
+    "id": "avernum-4-greed-and-glory",
+    "title": "Avernum 4: Greed and Glory"
+  },
+  {
+    "id": "avernum-5",
+    "title": "Avernum 5"
+  },
+  {
+    "id": "avernum-6",
+    "title": "Avernum 6"
+  },
+  {
+    "id": "avernum-the-complete-saga-1-6",
+    "title": "Avernum: The Complete Saga (1–6)"
+  },
+  {
+    "id": "baldurs-gate-enhanced-edition",
+    "title": "Baldur's Gate: Enhanced Edition"
+  },
+  {
+    "id": "baldurs-gate-ii-enhanced-edition",
+    "title": "Baldur's Gate II: Enhanced Edition"
+  },
+  {
+    "id": "baldurs-gate-3",
+    "title": "Baldur's Gate 3"
+  },
+  {
+    "id": "banquet-for-fools",
+    "title": "Banquet for Fools"
+  },
+  {
+    "id": "betrayal-collection",
+    "title": "Betrayal Collection"
+  },
+  {
+    "id": "beyond-divinity",
+    "title": "Beyond Divinity"
+  },
+  {
+    "id": "black-geyser-couriers-of-darkness",
+    "title": "Black Geyser: Couriers of Darkness"
+  },
+  {
+    "id": "broken-roads",
+    "title": "Broken Roads"
+  },
+  {
+    "id": "caves-of-lore",
+    "title": "Caves of Lore"
+  },
+  {
+    "id": "colony-ship-a-post-earth-roleplaying-game",
+    "title": "Colony Ship: A Post-Earth Roleplaying Game"
+  },
+  {
+    "id": "dark-envoy",
+    "title": "Dark Envoy"
+  },
+  {
+    "id": "dawnsbury-days",
+    "title": "Dawnsbury Days"
+  },
+  {
+    "id": "disco-elysium-the-final-cut",
+    "title": "Disco Elysium: The Final Cut"
+  },
+  {
+    "id": "divine-divinity",
+    "title": "Divine Divinity"
+  },
+  {
+    "id": "divinity-ii-developers-cut",
+    "title": "Divinity II: Developer's Cut"
+  },
+  {
+    "id": "divinity-original-sin-enhanced-edition",
+    "title": "Divinity: Original Sin — Enhanced Edition"
+  },
+  {
+    "id": "divinity-original-sin-2-definitive-edition",
+    "title": "Divinity: Original Sin 2 — Definitive Edition"
+  },
+  {
+    "id": "dragon-age-origins-ultimate-edition",
+    "title": "Dragon Age: Origins — Ultimate Edition"
+  },
+  {
+    "id": "drakensang",
+    "title": "Drakensang"
+  },
+  {
+    "id": "drakensang-the-river-of-time",
+    "title": "Drakensang: The River of Time"
+  },
+  {
+    "id": "drova-forsaken-kin",
+    "title": "Drova: Forsaken Kin"
+  },
+  {
+    "id": "dungeons-and-dragons-dark-sun-series",
+    "title": "Dungeons & Dragons: Dark Sun Series"
+  },
+  {
+    "id": "dungeons-and-dragons-krynn-series",
+    "title": "Dungeons & Dragons: Krynn Series"
+  },
+  {
+    "id": "dungeons-and-dragons-ravenloft-series",
+    "title": "Dungeons & Dragons: Ravenloft Series"
+  },
+  {
+    "id": "dungeons-of-chaos",
+    "title": "Dungeons of Chaos"
+  },
+  {
+    "id": "dungeon-of-dragon-knight",
+    "title": "Dungeon of Dragon Knight"
+  },
+  {
+    "id": "elex",
+    "title": "Elex"
+  },
+  {
+    "id": "elex-ii",
+    "title": "Elex II"
+  },
+  {
+    "id": "encased-a-sci-fi-post-apocalyptic-rpg",
+    "title": "Encased: A Sci-Fi Post-Apocalyptic RPG"
+  },
+  {
+    "id": "eschalon-book-i",
+    "title": "Eschalon: Book I"
+  },
+  {
+    "id": "eschalon-book-ii",
+    "title": "Eschalon: Book II"
+  },
+  {
+    "id": "eschalon-book-iii",
+    "title": "Eschalon: Book III"
+  },
+  {
+    "id": "esoteric-ebb",
+    "title": "Esoteric Ebb"
+  },
+  {
+    "id": "expeditions-rome",
+    "title": "Expeditions: Rome"
+  },
+  {
+    "id": "expeditions-viking",
+    "title": "Expeditions: Viking"
+  },
+  {
+    "id": "fallout",
+    "title": "Fallout"
+  },
+  {
+    "id": "fallout-2",
+    "title": "Fallout 2"
+  },
+  {
+    "id": "fallout-new-vegas",
+    "title": "Fallout: New Vegas"
+  },
+  {
+    "id": "forgotten-realms-the-archives-collection-one",
+    "title": "Forgotten Realms: The Archives — Collection One"
+  },
+  {
+    "id": "forgotten-realms-the-archives-collection-two",
+    "title": "Forgotten Realms: The Archives — Collection Two"
+  },
+  {
+    "id": "forgotten-realms-the-archives-collection-three",
+    "title": "Forgotten Realms: The Archives — Collection Three"
+  },
+  {
+    "id": "geneforge-1-mutagen",
+    "title": "Geneforge 1 — Mutagen"
+  },
+  {
+    "id": "geneforge-2-infestation",
+    "title": "Geneforge 2 — Infestation"
+  },
+  {
+    "id": "geneforge-saga",
+    "title": "Geneforge Saga"
+  },
+  {
+    "id": "gothic",
+    "title": "Gothic"
+  },
+  {
+    "id": "gothic-ii-gold-edition",
+    "title": "Gothic II: Gold Edition"
+  },
+  {
+    "id": "gothic-3",
+    "title": "Gothic 3"
+  },
+  {
+    "id": "greedfall",
+    "title": "GreedFall"
+  },
+  {
+    "id": "greedfall-the-dying-world",
+    "title": "GreedFall: The Dying World"
+  },
+  {
+    "id": "grimoire-heralds-of-the-winged-exemplar",
+    "title": "Grimoire: Heralds of the Winged Exemplar"
+  },
+  {
+    "id": "heroes-of-the-monkey-tavern",
+    "title": "Heroes of the Monkey Tavern"
+  },
+  {
+    "id": "icewind-dale-enhanced-edition",
+    "title": "Icewind Dale: Enhanced Edition"
+  },
+  {
+    "id": "icewind-dale-ii",
+    "title": "Icewind Dale II"
+  },
+  {
+    "id": "islands-of-the-caliph",
+    "title": "Islands of the Caliph"
+  },
+  {
+    "id": "jade-empire-special-edition",
+    "title": "Jade Empire: Special Edition"
+  },
+  {
+    "id": "knights-of-the-chalice",
+    "title": "Knights of the Chalice"
+  },
+  {
+    "id": "knights-of-the-chalice-2",
+    "title": "Knights of the Chalice 2"
+  },
+  {
+    "id": "lands-of-lore-1-2",
+    "title": "Lands of Lore 1+2"
+  },
+  {
+    "id": "legend-of-grimrock",
+    "title": "Legend of Grimrock"
+  },
+  {
+    "id": "legend-of-grimrock-2",
+    "title": "Legend of Grimrock 2"
+  },
+  {
+    "id": "legends-of-amberland-the-forgotten-crown",
+    "title": "Legends of Amberland: The Forgotten Crown"
+  },
+  {
+    "id": "legends-of-amberland-ii-the-song-of-trees",
+    "title": "Legends of Amberland II: The Song of Trees"
+  },
+  {
+    "id": "legends-of-amberland-iii-the-crimson-tower",
+    "title": "Legends of Amberland III: The Crimson Tower"
+  },
+  {
+    "id": "lionheart-legacy-of-the-crusader",
+    "title": "Lionheart: Legacy of the Crusader"
+  },
+  {
+    "id": "lords-of-xulima",
+    "title": "Lords of Xulima"
+  },
+  {
+    "id": "mechajammer",
+    "title": "Mechajammer"
+  },
+  {
+    "id": "might-and-magic-6-pack-limited-edition",
+    "title": "Might and Magic 6-Pack Limited Edition"
+  },
+  {
+    "id": "might-and-magic-vii-for-blood-and-honor",
+    "title": "Might and Magic VII: For Blood and Honor"
+  },
+  {
+    "id": "might-and-magic-viii-day-of-the-destroyer",
+    "title": "Might and Magic VIII: Day of the Destroyer"
+  },
+  {
+    "id": "might-and-magic-ix",
+    "title": "Might and Magic IX"
+  },
+  {
+    "id": "might-and-magic-x-legacy",
+    "title": "Might & Magic X — Legacy"
+  },
+  {
+    "id": "moonring",
+    "title": "Moonring"
+  },
+  {
+    "id": "nethergate-resurrection",
+    "title": "Nethergate: Resurrection"
+  },
+  {
+    "id": "neverwinter-nights-enhanced-edition",
+    "title": "Neverwinter Nights: Enhanced Edition"
+  },
+  {
+    "id": "neverwinter-nights-2",
+    "title": "Neverwinter Nights 2"
+  },
+  {
+    "id": "neverwinter-nights-2-enhanced-edition",
+    "title": "Neverwinter Nights 2: Enhanced Edition"
+  },
+  {
+    "id": "nox-archaist",
+    "title": "Nox Archaist"
+  },
+  {
+    "id": "operencia-the-stolen-sun",
+    "title": "Operencia: The Stolen Sun"
+  },
+  {
+    "id": "passageway-of-the-ancients",
+    "title": "Passageway of the Ancients"
+  },
+  {
+    "id": "pathfinder-kingmaker-enhanced-plus-edition",
+    "title": "Pathfinder: Kingmaker — Enhanced Plus Edition"
+  },
+  {
+    "id": "pathfinder-wrath-of-the-righteous-enhanced-edition",
+    "title": "Pathfinder: Wrath of the Righteous — Enhanced Edition"
+  },
+  {
+    "id": "pillars-of-eternity",
+    "title": "Pillars of Eternity"
+  },
+  {
+    "id": "pillars-of-eternity-ii-deadfire",
+    "title": "Pillars of Eternity II: Deadfire"
+  },
+  {
+    "id": "planescape-torment-enhanced-edition",
+    "title": "Planescape: Torment — Enhanced Edition"
+  },
+  {
+    "id": "prince-of-qin",
+    "title": "Prince of Qin"
+  },
+  {
+    "id": "queens-wish-the-conqueror",
+    "title": "Queen's Wish: The Conqueror"
+  },
+  {
+    "id": "queens-wish-2-the-tormentor",
+    "title": "Queen's Wish 2: The Tormentor"
+  },
+  {
+    "id": "realms-of-antiquity-the-shattered-crown",
+    "title": "Realms of Antiquity: The Shattered Crown"
+  },
+  {
+    "id": "realms-of-arkania-1-blade-of-destiny-classic",
+    "title": "Realms of Arkania 1 — Blade of Destiny Classic"
+  },
+  {
+    "id": "realms-of-arkania-2-star-trail-classic",
+    "title": "Realms of Arkania 2 — Star Trail Classic"
+  },
+  {
+    "id": "realms-of-arkania-3-shadows-over-riva-classic",
+    "title": "Realms of Arkania 3 — Shadows over Riva Classic"
+  },
+  {
+    "id": "realms-of-arkania-blade-of-destiny",
+    "title": "Realms of Arkania: Blade of Destiny"
+  },
+  {
+    "id": "realms-of-arkania-star-trail",
+    "title": "Realms of Arkania: Star Trail"
+  },
+  {
+    "id": "risen",
+    "title": "Risen"
+  },
+  {
+    "id": "risen-2-dark-waters",
+    "title": "Risen 2: Dark Waters"
+  },
+  {
+    "id": "risen-3-titan-lords",
+    "title": "Risen 3: Titan Lords"
+  },
+  {
+    "id": "sector-unknown",
+    "title": "Sector Unknown"
+  },
+  {
+    "id": "serpent-in-the-staglands",
+    "title": "Serpent in the Staglands"
+  },
+  {
+    "id": "seven-enhanced-edition",
+    "title": "Seven: Enhanced Edition"
+  },
+  {
+    "id": "shadowrun-returns",
+    "title": "Shadowrun Returns"
+  },
+  {
+    "id": "shadowrun-dragonfall-directors-cut",
+    "title": "Shadowrun: Dragonfall — Director's Cut"
+  },
+  {
+    "id": "shadowrun-hong-kong-extended-edition",
+    "title": "Shadowrun: Hong Kong — Extended Edition"
+  },
+  {
+    "id": "skald-against-the-black-priory",
+    "title": "SKALD: Against the Black Priory"
+  },
+  {
+    "id": "solasta-crown-of-the-magister",
+    "title": "Solasta: Crown of the Magister"
+  },
+  {
+    "id": "space-wreck",
+    "title": "Space Wreck"
+  },
+  {
+    "id": "spelljammer-pirates-of-realmspace",
+    "title": "Spelljammer: Pirates of Realmspace"
+  },
+  {
+    "id": "starcrawlers",
+    "title": "StarCrawlers"
+  },
+  {
+    "id": "star-wars-knights-of-the-old-republic",
+    "title": "Star Wars: Knights of the Old Republic"
+  },
+  {
+    "id": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+    "title": "Star Wars: Knights of the Old Republic II — The Sith Lords"
+  },
+  {
+    "id": "swordhaven-iron-conspiracy",
+    "title": "Swordhaven: Iron Conspiracy"
+  },
+  {
+    "id": "the-bards-tale-trilogy",
+    "title": "The Bard's Tale Trilogy"
+  },
+  {
+    "id": "the-bards-tale-iv-directors-cut",
+    "title": "The Bard's Tale IV — Director's Cut"
+  },
+  {
+    "id": "the-elder-scrolls-arena",
+    "title": "The Elder Scrolls: Arena"
+  },
+  {
+    "id": "the-elder-scrolls-ii-daggerfall",
+    "title": "The Elder Scrolls II: Daggerfall"
+  },
+  {
+    "id": "the-elder-scrolls-iii-morrowind-game-of-the-year-edition",
+    "title": "The Elder Scrolls III: Morrowind — Game of the Year Edition"
+  },
+  {
+    "id": "the-temple-of-elemental-evil",
+    "title": "The Temple of Elemental Evil"
+  },
+  {
+    "id": "the-temple-of-elemental-evil-re-release",
+    "title": "The Temple of Elemental Evil — Re-Release"
+  },
+  {
+    "id": "the-quest",
+    "title": "The Quest"
+  },
+  {
+    "id": "torment-tides-of-numenera",
+    "title": "Torment: Tides of Numenera"
+  },
+  {
+    "id": "tyranny",
+    "title": "Tyranny"
+  },
+  {
+    "id": "ultima-1-2-3",
+    "title": "Ultima 1+2+3"
+  },
+  {
+    "id": "ultima-iv-quest-of-the-avatar",
+    "title": "Ultima IV: Quest of the Avatar"
+  },
+  {
+    "id": "ultima-4-5-6",
+    "title": "Ultima 4+5+6"
+  },
+  {
+    "id": "ultima-vii-the-complete-edition",
+    "title": "Ultima VII: The Complete Edition"
+  },
+  {
+    "id": "ultima-underworld-1-2",
+    "title": "Ultima Underworld 1+2"
+  },
+  {
+    "id": "underrail",
+    "title": "Underrail"
+  },
+  {
+    "id": "vampire-the-masquerade-bloodlines",
+    "title": "Vampire: The Masquerade — Bloodlines"
+  },
+  {
+    "id": "vaporum",
+    "title": "Vaporum"
+  },
+  {
+    "id": "vaporum-lockdown",
+    "title": "Vaporum: Lockdown"
+  },
+  {
+    "id": "vendir-plague-of-lies",
+    "title": "Vendir: Plague of Lies"
+  },
+  {
+    "id": "warhammer-40-000-rogue-trader",
+    "title": "Warhammer 40,000: Rogue Trader"
+  },
+  {
+    "id": "wasteland-1-the-original-classic",
+    "title": "Wasteland 1 — The Original Classic"
+  },
+  {
+    "id": "wasteland-remastered",
+    "title": "Wasteland Remastered"
+  },
+  {
+    "id": "wasteland-2-directors-cut",
+    "title": "Wasteland 2 — Director's Cut"
+  },
+  {
+    "id": "wasteland-3",
+    "title": "Wasteland 3"
+  },
+  {
+    "id": "wizardry-proving-grounds-of-the-mad-overlord",
+    "title": "Wizardry: Proving Grounds of the Mad Overlord"
+  },
+  {
+    "id": "wizardry-6-bane-of-the-cosmic-forge",
+    "title": "Wizardry 6: Bane of the Cosmic Forge"
+  },
+  {
+    "id": "wizardry-7-crusaders-of-the-dark-savant",
+    "title": "Wizardry 7: Crusaders of the Dark Savant"
+  },
+  {
+    "id": "wizardry-8",
+    "title": "Wizardry 8"
+  },
+  {
+    "id": "wizardry-the-five-ordeals",
+    "title": "Wizardry: The Five Ordeals"
+  }
+]
