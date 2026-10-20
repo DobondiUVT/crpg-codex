@@ -974,6 +974,18 @@
      Boot
      ------------------------------------------------------------------------ */
 
+  function initPWA() {
+    if (!('serviceWorker' in navigator)) return;
+    const localHost = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+    if (location.protocol !== 'https:' && !localHost) return;
+
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js', { scope: './', updateViaCache: 'none' }).catch(() => {
+        /* The shelf still works without offline support. */
+      });
+    });
+  }
+
   function init() {
     if (!dom.gameGrid) return;
 
@@ -994,6 +1006,7 @@
     initReveal();
     initEvents();
     syncFromHash();
+    initPWA();
   }
 
   init();

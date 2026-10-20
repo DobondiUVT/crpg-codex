@@ -49,6 +49,10 @@
   --container-wide: 1500px;
   --gutter: clamp(20px, 4.2vw, 64px);
   --header-height: 78px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
   --radius-xs: 2px;
   --radius-sm: 4px;
   --radius-md: 8px;
@@ -112,13 +116,16 @@ html[data-theme="light"] {
 html {
   min-width: 320px;
   scroll-behavior: smooth;
-  scroll-padding-top: calc(var(--header-height) + 24px);
+  scroll-padding-top: calc(var(--header-height) + var(--safe-top) + 24px);
   text-size-adjust: 100%;
 }
 
 body {
   min-height: 100vh;
+  min-height: 100dvh;
   margin: 0;
+  padding-right: var(--safe-right);
+  padding-left: var(--safe-left);
   overflow-x: hidden;
   background:
     radial-gradient(ellipse 70% 42% at 76% 0%, rgba(160, 117, 56, 0.1), transparent 65%),
@@ -246,7 +253,7 @@ fieldset {
 
 section[id],
 main[id] {
-  scroll-margin-top: calc(var(--header-height) + 24px);
+  scroll-margin-top: calc(var(--header-height) + var(--safe-top) + 24px);
 }
 
 ::-webkit-scrollbar {
@@ -517,6 +524,9 @@ html[data-theme="light"] .grain {
   right: 0;
   left: 0;
   z-index: 100;
+  padding-top: var(--safe-top);
+  padding-right: var(--safe-right);
+  padding-left: var(--safe-left);
   border-bottom: 1px solid transparent;
   background: transparent;
   transition:
@@ -666,8 +676,9 @@ html[data-theme="light"] .theme-toggle .theme-icon--moon {
 .hero {
   position: relative;
   min-height: 100vh;
+  min-height: 100svh;
   overflow: hidden;
-  padding-top: calc(var(--header-height) + clamp(42px, 8vh, 88px));
+  padding-top: calc(var(--header-height) + var(--safe-top) + clamp(42px, 8vh, 88px));
   padding-bottom: clamp(50px, 6vw, 84px);
 }
 
@@ -2351,7 +2362,7 @@ html[data-theme="light"] .site-footer {
   align-items: start;
   gap: clamp(28px, 5vw, 80px);
   margin: 0 auto;
-  padding: clamp(46px, 6vw, 70px) var(--gutter) clamp(36px, 5vw, 54px);
+  padding: clamp(46px, 6vw, 70px) var(--gutter) calc(clamp(36px, 5vw, 54px) + var(--safe-bottom));
 }
 
 .brand--footer .brand-mark {
@@ -2468,7 +2479,7 @@ dialog::backdrop {
 }
 
 .game-dialog {
-  width: min(1010px, calc(100vw - 36px));
+  width: min(1010px, calc(100vw - 36px - var(--safe-left) - var(--safe-right)));
   overflow: visible;
 }
 
@@ -2476,6 +2487,7 @@ dialog::backdrop {
   display: grid;
   grid-template-columns: minmax(300px, 0.86fr) minmax(0, 1.14fr);
   max-height: min(86vh, 780px);
+  max-height: min(86dvh, 780px);
   overflow: hidden;
   border: 1px solid var(--gold-line);
   background: var(--bg-raised);
@@ -2688,7 +2700,7 @@ button.platform-chip:hover {
 /* Roll dialog */
 
 .roll-dialog {
-  width: min(620px, calc(100vw - 36px));
+  width: min(620px, calc(100vw - 36px - var(--safe-left) - var(--safe-right)));
 }
 
 .roll-inner {
@@ -2828,10 +2840,10 @@ button.platform-chip:hover {
 
 .toast {
   position: fixed;
-  bottom: 28px;
+  bottom: calc(28px + var(--safe-bottom));
   left: 50%;
   z-index: 4000;
-  max-width: min(520px, calc(100vw - 40px));
+  max-width: min(520px, calc(100vw - 40px - var(--safe-left) - var(--safe-right)));
   padding: 13px 20px;
   border: 1px solid var(--gold);
   background: var(--gold);
@@ -3054,6 +3066,7 @@ html.js .reveal.is-visible {
   .game-dialog-content {
     grid-template-columns: 1fr;
     max-height: min(90vh, 900px);
+    max-height: min(90dvh, 900px);
     overflow-y: auto;
   }
 
@@ -3114,7 +3127,7 @@ html.js .reveal.is-visible {
   }
 
   .hero {
-    padding-top: calc(var(--header-height) + 42px);
+    padding-top: calc(var(--header-height) + var(--safe-top) + 42px);
   }
 
   .hero h1 {
@@ -3361,6 +3374,7 @@ html.js .reveal.is-visible {
 
   .game-dialog-content {
     max-height: calc(100vh - 20px);
+    max-height: calc(100dvh - 20px);
   }
 
   .detail-body {
@@ -3393,7 +3407,7 @@ html.js .reveal.is-visible {
   }
 
   .roll-dialog {
-    width: calc(100vw - 20px);
+    width: calc(100vw - 20px - var(--safe-left) - var(--safe-right));
   }
 
   .roll-inner {
@@ -3455,6 +3469,14 @@ html.js .reveal.is-visible {
 @media (hover: none) {
   .card-open {
     display: none;
+  }
+
+  .button:hover {
+    transform: none;
+  }
+
+  .dialog-close:hover {
+    transform: none;
   }
 
   .game-card-link:hover .cover-frame {

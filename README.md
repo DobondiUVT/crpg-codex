@@ -13,6 +13,7 @@ There is no framework, build step, account system, or analytics. The site is pla
 - **Detail dialog deep links** such as `#game/baldurs-gate-3`
 - **A daily featured cover** and a random shelf picker
 - **Dark and light themes**, with the choice remembered locally
+- **Installable PWA** with standalone display, offline app shell, Apple touch icon, and safe-area support for iPhone notches
 - **No progress tracking, accounts, scores, or third-party scripts**
 
 The only browser storage keys are `crpg-codex-theme` and `crpg-codex-view`.
@@ -35,9 +36,13 @@ Any static file server will do. Opening `index.html` directly with `file://` may
 index.html            Page structure and copy
 styles.css            Complete visual system, including responsive and light themes
 app.js                Filtering, rendering, dialogs, charts, and interactions
+sw.js                 Service worker: offline app shell and runtime cover caching
+manifest.webmanifest  PWA manifest, install metadata, and icons
 data/games.js         The 154 catalogue entries
 data/stores.js        Direct Steam or GOG links for every entry
 assets/covers/        600 × 900 JPEG cover art
+assets/icons/         PWA icons (regular and maskable)
+assets/apple-touch-icon.png  iOS home-screen icon
 assets/favicon.svg    Site icon
 assets/og.jpg         1200 × 630 social preview image
 assets/noise.svg      Grain texture
@@ -65,11 +70,21 @@ The development helpers require Node.js and the `sharp` package:
 ```sh
 npm install
 node scripts/make-og.mjs
+node scripts/make-icons.mjs
 ```
 
 The cover sourcing pipeline is in `scripts/download-covers.mjs`. It is kept for reference and may depend on external storefront URLs that change. The committed covers are the source of truth for the site itself.
 
 The social preview can also be regenerated with `node scripts/make-og.mjs`.
+
+## Installing
+
+The site is installable on HTTPS (including GitHub Pages).
+
+- **iPhone / iPad:** open the site in Safari, tap **Share**, then **Add to Home Screen**.
+- **Chrome / Edge:** use the install icon in the address bar, or the browser menu.
+
+The service worker caches the app shell and covers as they are viewed, so previously visited parts of the shelf remain available offline. If you change the app shell, bump `CACHE_VERSION` in `sw.js` so installed copies refresh their cached files.
 
 ## Deployment
 
