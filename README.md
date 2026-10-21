@@ -9,12 +9,13 @@ There is no framework, build step, account system, or analytics. The site is pla
 - **154 games**, each with local cover art at `assets/covers/<id>.jpg`
 - **Platform filters** across 17 exact platforms, grouped into seven families
 - **Search, era filters, sorting, and grid/list views**
+- **Quality and popularity scores** for every game, sortable from the library toolbar
 - **Direct store links** to Steam or GOG, with no affiliate parameters
 - **Detail dialog deep links** such as `#game/baldurs-gate-3`
 - **A daily featured cover** and a random shelf picker
 - **Dark and light themes**, with the choice remembered locally
 - **Installable PWA** with standalone display, offline app shell, Apple touch icon, and safe-area support for iPhone notches
-- **No progress tracking, accounts, scores, or third-party scripts**
+- **No progress tracking, accounts, or third-party scripts**
 
 The only browser storage keys are `crpg-codex-theme` and `crpg-codex-view`.
 
@@ -40,6 +41,7 @@ sw.js                 Service worker: offline app shell and runtime cover cachin
 manifest.webmanifest  PWA manifest, install metadata, and icons
 data/games.js         The 154 catalogue entries
 data/stores.js        Direct Steam or GOG links for every entry
+data/scores.js        Quality and popularity scores for every entry
 assets/covers/        600 × 900 JPEG cover art
 assets/icons/         PWA icons (regular and maskable)
 assets/apple-touch-icon.png  iOS home-screen icon
@@ -56,6 +58,15 @@ Title|Released|Platforms|Note
 ```
 
 The loader normalises platform aliases, sorts them into a stable order, and derives the game ID from the title.
+
+## Scores
+
+Every entry has two 0–100 scores in `data/scores.js`:
+
+- **Quality** blends Metacritic critic scores with Bayesian-adjusted Steam user reception. Entries with no critic aggregate use a confidence-weighted player score instead.
+- **Popularity** is audience reach, derived from Steam review volume on a logarithmic scale. GOG-only entries use review-equivalent estimates based on comparable releases.
+
+The scores are editorial reading aids, not objective rankings. They are shown on every card and in each detail panel, and can be sorted from the library toolbar.
 
 ## Store links
 
@@ -100,4 +111,4 @@ The site is designed for GitHub Pages from the repository root:
 
 ## Credits
 
-Catalogue adapted from the r/CRPG recommendations wiki. Cover art belongs to the respective publishers and developers and is shown for identification and appreciation. No affiliation is implied. Store links are provided for convenience only.
+Catalogue adapted from the r/CRPG recommendations wiki. Cover art belongs to the respective publishers and developers and is shown for identification and appreciation. Some replacement full-bleed covers use community assets from SteamGridDB. No affiliation is implied. Store links are provided for convenience only.

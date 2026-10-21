@@ -3,7 +3,7 @@
  * Bump CACHE_VERSION whenever the app shell changes in a way that must replace cached files.
  */
 
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v5';
 const CACHE_NAME = `crpg-codex-${CACHE_VERSION}`;
 
 const APP_SHELL = [
@@ -13,6 +13,7 @@ const APP_SHELL = [
   './app.js',
   './data/games.js',
   './data/stores.js',
+  './data/scores.js',
   './manifest.webmanifest',
   './assets/favicon.svg',
   './assets/noise.svg',
@@ -26,10 +27,20 @@ const APP_SHELL = [
 
 const NETWORK_FIRST = /\.(?:html|css|js|webmanifest)$/i;
 
+async function precacheAppShell() {
+  const cache = await caches.open(CACHE_NAME);
+
+  await Promise.all(APP_SHELL.map(async (path) => {
+    const request = new Request(new URL(path, self.location.href).href, { cache: 'reload' });
+    const response = await fetch(request);
+    if (!response.ok) throw new Error(`Could not cache ${path}`);
+    await cache.put(request, response);
+  }));
+}
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then((cache) => cache.addAll(APP_SHELL))
+    precacheAppShell()
       .then(() => self.skipWaiting())
   );
 });
@@ -56,7 +67,7 @@ async function networkFirst(request, fallbackUrl) {
   const fallback = fallbackUrl || request;
 
   try {
-    const response = await fetch(request);
+    const response = await fetch(request, { cache: 'no-store' });
     if (response && response.ok) {
       await putInCache(request, response);
       return response;

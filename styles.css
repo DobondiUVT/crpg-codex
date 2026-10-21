@@ -1722,6 +1722,37 @@ html[data-theme="light"] .collection-badge {
   white-space: nowrap;
 }
 
+.card-scores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-top: 7px;
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+  font-size: 7px;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.card-score {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.card-score-label {
+  color: var(--ink-muted);
+}
+
+.card-score strong {
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 .card-end {
   display: none;
 }
@@ -1812,6 +1843,10 @@ html[data-theme="light"] .collection-badge {
   font-size: 8.2px;
   text-overflow: clip;
   white-space: normal;
+}
+
+.game-grid.is-list .card-scores {
+  margin-top: 5px;
 }
 
 .game-grid.is-list .card-end {
@@ -2595,6 +2630,58 @@ dialog::backdrop {
   margin-top: 6px;
   color: var(--ink-soft);
   font-size: 12.5px;
+}
+
+.detail-scores {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.detail-score-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+  font-size: 7.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.detail-score-head strong {
+  color: var(--gold-bright);
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.detail-score-head small {
+  color: var(--ink-ghost);
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 0.04em;
+}
+
+.detail-score-track {
+  height: 3px;
+  overflow: hidden;
+  background: var(--line);
+}
+
+.detail-score-track span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold-deep), var(--gold-bright));
+}
+
+.detail-score-track--popularity span {
+  background: linear-gradient(90deg, var(--rust-deep), var(--rust));
 }
 
 .detail-platforms {
@@ -3435,6 +3522,13 @@ html.js .reveal.is-visible {
   .bar-row {
     grid-template-columns: 62px minmax(0, 1fr) 34px;
     gap: 9px;
+  }
+}
+
+@media (max-width: 360px) {
+  .detail-scores {
+    grid-template-columns: 1fr;
+    gap: 14px;
   }
 }
 

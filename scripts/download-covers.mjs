@@ -20,7 +20,23 @@ const steamOverrides = {
   'neverwinter-nights-2-enhanced-edition': 2738630,
 };
 
+// Full-bleed 2:3 covers for entries whose store asset is a landscape header
+// or a near-square box scan. Sourced from SteamGridDB.
 const directCovers = {
+  'arcanum-of-steamworks-and-magick-obscura': 'https://cdn2.steamgriddb.com/grid/380c64c40baeb6ad28db5eef95b6dc0a.png',
+  'betrayal-collection': 'https://cdn2.steamgriddb.com/grid/d8c4b9a46ef46a0b3dae8a1e1279a8d8.png',
+  drakensang: 'https://cdn2.steamgriddb.com/grid/888f3acf10e90e8b16022e86afbab83c.png',
+  'drakensang-the-river-of-time': 'https://cdn2.steamgriddb.com/grid/9508e33866145631ca76768f61282f2c.png',
+  'eschalon-book-ii': 'https://cdn2.steamgriddb.com/grid/03e98208aa19e1e298d759f230c0f863.png',
+  'eschalon-book-iii': 'https://cdn2.steamgriddb.com/grid/5cb98d6b292a324f482604bcc614fd35.png',
+  'icewind-dale-ii': 'https://cdn2.steamgriddb.com/grid/5486bc1e779e65b2253cec15c40ee322.png',
+  'lands-of-lore-1-2': 'https://cdn2.steamgriddb.com/grid/3c42783f8fc4cb336aa9f56868d32e15.png',
+  'legend-of-grimrock': 'https://cdn2.steamgriddb.com/grid/67a00e4d31786c71df7d83c4eba5b3cf.png',
+  'legend-of-grimrock-2': 'https://cdn2.steamgriddb.com/grid/2488294e5b8aa832810695a56cbeacdf.png',
+  'might-and-magic-6-pack-limited-edition': 'https://cdn2.steamgriddb.com/grid/13554372e84991a63871e8b520b1fb21.png',
+  'might-and-magic-vii-for-blood-and-honor': 'https://cdn2.steamgriddb.com/grid/b581b628e985efa530ea56811d764624.png',
+  'might-and-magic-viii-day-of-the-destroyer': 'https://cdn2.steamgriddb.com/grid/98343d8881de4b59e74c26a83b5d1691.png',
+  'might-and-magic-x-legacy': 'https://cdn2.steamgriddb.com/grid/82ccbdd3f53800fe4077971695692dc1.jpg',
   'avernum-4-greed-and-glory': 'https://images.gog-statics.com/f39a504a627e654a66b914293245a66fc590e1470df78c4ae9375869df2c084b.png',
   'legends-of-amberland-iii-the-crimson-tower': 'https://images.gog-statics.com/b43bedaa53cec8e3d7f038ceb0f8321e547de84676c2c35721bd11f90e59aa0d.png',
   'the-temple-of-elemental-evil-re-release': 'https://images.gog-statics.com/734f8a229be127060b0fdf1227068f57f7b094d538b3abcfd8cc1582c6691c40.png',

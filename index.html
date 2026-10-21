@@ -168,7 +168,7 @@
               <span>Surprise me</span>
             </button>
           </div>
-          <p class="hero-fineprint"><span class="fine-dot" aria-hidden="true"></span>No accounts. No scores. No backlog guilt.</p>
+          <p class="hero-fineprint"><span class="fine-dot" aria-hidden="true"></span>No accounts. No checklists. No backlog guilt.</p>
         </div>
 
         <div class="hero-art">
@@ -221,7 +221,7 @@
             <p class="eyebrow"><span class="section-number">01</span><span class="slash">/</span>The Library</p>
             <h2 id="library-title">A shelf of worlds.</h2>
           </div>
-          <p class="section-lede">Browse all 154 entries by platform, era, or instinct. Every cover is local, every platform cleaned up, every game given its own room.</p>
+          <p class="section-lede">Browse all 154 entries by platform, era, quality, or popularity. Every cover is local, every platform cleaned up, every game given its own room.</p>
         </header>
 
         <div class="catalog-panel reveal">
@@ -256,6 +256,8 @@
                 <option value="title-desc">Title Z–A</option>
                 <option value="newest">Newest first</option>
                 <option value="oldest">Oldest first</option>
+                <option value="quality">Quality: high first</option>
+                <option value="popularity">Popularity: high first</option>
               </select>
             </div>
 
@@ -334,7 +336,8 @@
             <h2 id="about-title">A catalogue,<br><em>not a checklist.</em></h2>
             <p class="about-lede">There are no accounts here, no save files, no little stars to collect. Just 154 CRPGs, their covers, and the platforms that carried them.</p>
             <p>Every cover lives in this repository rather than being pulled from a storefront. Store buttons lead directly to each game's Steam or GOG page, with no affiliate strings attached. Platform names have been normalised and brought together into seven readable families. Release dates follow the source list, warts and all.</p>
-            <p>The shelf is adapted from the long-running <a href="https://www.reddit.com/r/CRPG/wiki/recommendations" target="_blank" rel="noopener noreferrer">r/CRPG recommendations wiki <svg class="icon" aria-hidden="true"><use href="#icon-external"></use></svg></a>. It is a love letter, not a leaderboard.</p>
+            <p>Each entry carries two editorial scores. <strong>Quality</strong> blends critic reception with player sentiment; <strong>Popularity</strong> measures audience reach from review volume, with comparable estimates for GOG-only titles. They are reading aids, not verdicts.</p>
+            <p>The shelf is adapted from the long-running <a href="https://www.reddit.com/r/CRPG/wiki/recommendations" target="_blank" rel="noopener noreferrer">r/CRPG recommendations wiki <svg class="icon" aria-hidden="true"><use href="#icon-external"></use></svg></a>. It is a love letter, not a checklist.</p>
             <p class="about-signoff"><svg class="icon" aria-hidden="true"><use href="#icon-spark"></use></svg>So many worlds, so little time.</p>
           </div>
 
@@ -398,7 +401,7 @@
 
       <div class="footer-fine">
         <p>Adapted from the r/CRPG recommendations wiki. Cover art © respective rights holders.</p>
-        <p>No trackers, no accounts, no scores. <span class="footer-year" id="footer-year">2026</span></p>
+        <p>No trackers, no accounts. Just the shelf. <span class="footer-year" id="footer-year">2026</span></p>
       </div>
     </div>
   </footer>
@@ -442,6 +445,7 @@
 
   <script src="data/games.js" defer></script>
   <script src="data/stores.js" defer></script>
+  <script src="data/scores.js" defer></script>
   <script src="app.js" defer></script>
 </body>
 </html>

@@ -8,8 +8,14 @@
 
   const games = Array.isArray(window.CRPG_GAMES) ? window.CRPG_GAMES : [];
   const storeData = window.CRPG_STORES && typeof window.CRPG_STORES === 'object' ? window.CRPG_STORES : {};
+  const scoreData = window.CRPG_SCORES && typeof window.CRPG_SCORES === 'object' ? window.CRPG_SCORES : {};
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
+
+  const clampScore = (value, fallback) => {
+    const score = Number(value);
+    return Number.isFinite(score) ? Math.max(0, Math.min(100, Math.round(score))) : fallback;
+  };
 
   const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, (character) => ({
     '&': '&amp;',
@@ -89,6 +95,7 @@
   const catalogue = games.map((game, order) => {
     const families = platformFamilies.filter((family) => game.platforms.some((platform) => family.platforms.includes(platform)));
     const isCollection = collectionPattern.test(game.title);
+    const scores = scoreData[game.id] || {};
     const searchText = [
       game.title,
       game.year,
@@ -105,6 +112,8 @@
       order,
       families,
       isCollection,
+      quality: clampScore(scores.quality, 75),
+      popularity: clampScore(scores.popularity, 50),
       searchText,
       store: normalizeStore(storeData[game.id]),
       date: new Date(`${game.released}T00:00:00Z`),
@@ -193,8 +202,10 @@
      Small renderers
      ------------------------------------------------------------------------ */
 
+  const coverVersion = '2';
+
   function coverSource(game) {
-    return `assets/covers/${game.id}.jpg`;
+    return `assets/covers/${game.id}.jpg?v=${coverVersion}`;
   }
 
   function platformList(game) {
@@ -292,6 +303,12 @@
       case 'oldest':
         filtered.sort((a, b) => a.date - b.date || byTitle(a, b));
         break;
+      case 'quality':
+        filtered.sort((a, b) => b.quality - a.quality || b.popularity - a.popularity || byTitle(a, b));
+        break;
+      case 'popularity':
+        filtered.sort((a, b) => b.popularity - a.popularity || b.quality - a.quality || byTitle(a, b));
+        break;
       default:
         filtered.sort(byTitle);
     }
@@ -339,10 +356,11 @@
   function cardMarkup(game) {
     const title = escapeHTML(game.title);
     const fullPlatforms = escapeHTML(game.platforms.join(', '));
+    const scoreLabel = `Quality ${game.quality} out of 100, popularity ${game.popularity} out of 100`;
 
     return `
       <article class="game-card" data-id="${escapeHTML(game.id)}">
-        <a class="game-card-link" href="#game/${escapeHTML(game.id)}" data-game-id="${escapeHTML(game.id)}" aria-label="Open ${title}">
+        <a class="game-card-link" href="#game/${escapeHTML(game.id)}" data-game-id="${escapeHTML(game.id)}" aria-label="Open ${title}. ${scoreLabel}.">
           <figure class="card-cover cover-frame">
             ${fallbackMarkup(game)}
             ${coverImage(game, 'card-cover-image')}
@@ -356,6 +374,10 @@
               ${game.note ? '<span class="card-note" title="Has a catalogue note"><svg class="icon" aria-hidden="true"><use href="#icon-note"></use></svg></span>' : ''}
             </div>
             <p class="card-platforms" title="${fullPlatforms}">${escapeHTML(truncatePlatforms(game))}</p>
+            <p class="card-scores" aria-label="${scoreLabel}">
+              <span class="card-score"><span class="card-score-label">Quality</span><strong>${game.quality}</strong></span>
+              <span class="card-score"><span class="card-score-label">Popularity</span><strong>${game.popularity}</strong></span>
+            </p>
           </div>
           <span class="card-end" aria-hidden="true">${game.year}<svg class="icon"><use href="#icon-chevron-right"></use></svg></span>
         </a>
@@ -568,6 +590,22 @@
             <dd>${escapeHTML(game.families.map((family) => family.label).join(' · '))}</dd>
           </div>
         </dl>
+        <div class="detail-scores" aria-label="Quality ${game.quality} out of 100. Popularity ${game.popularity} out of 100.">
+          <div class="detail-score" title="Blends critic reception with player sentiment">
+            <div class="detail-score-head">
+              <span>Quality</span>
+              <strong>${game.quality}<small>/100</small></strong>
+            </div>
+            <div class="detail-score-track" aria-hidden="true"><span style="width: ${game.quality}%"></span></div>
+          </div>
+          <div class="detail-score" title="Audience reach, based on review volume">
+            <div class="detail-score-head">
+              <span>Popularity</span>
+              <strong>${game.popularity}<small>/100</small></strong>
+            </div>
+            <div class="detail-score-track detail-score-track--popularity" aria-hidden="true"><span style="width: ${game.popularity}%"></span></div>
+          </div>
+        </div>
         <div class="detail-platforms">
           <span class="detail-label">Platforms</span>
           <div class="platform-chips">${platformChips}</div>
