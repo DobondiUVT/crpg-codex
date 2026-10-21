@@ -1488,12 +1488,26 @@ html.js .hero-art {
 
 .game-card {
   position: relative;
+  display: flex;
   min-width: 0;
 }
 
 .game-card-link {
-  display: block;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   min-width: 0;
+}
+
+.game-grid:not(.is-list) .card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.game-grid:not(.is-list) .card-scores {
+  margin-top: auto;
+  padding-top: 7px;
 }
 
 .cover-frame {
