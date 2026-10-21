@@ -37,11 +37,10 @@ const directCovers = {
   'might-and-magic-vii-for-blood-and-honor': 'https://cdn2.steamgriddb.com/grid/b581b628e985efa530ea56811d764624.png',
   'might-and-magic-viii-day-of-the-destroyer': 'https://cdn2.steamgriddb.com/grid/98343d8881de4b59e74c26a83b5d1691.png',
   'might-and-magic-x-legacy': 'https://cdn2.steamgriddb.com/grid/82ccbdd3f53800fe4077971695692dc1.jpg',
-  'avernum-4-greed-and-glory': 'https://images.gog-statics.com/f39a504a627e654a66b914293245a66fc590e1470df78c4ae9375869df2c084b.png',
-  'legends-of-amberland-iii-the-crimson-tower': 'https://images.gog-statics.com/b43bedaa53cec8e3d7f038ceb0f8321e547de84676c2c35721bd11f90e59aa0d.png',
+  'avernum-4-greed-and-glory': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3882020/fc96b53f7d7b083ccdd044ee4bc6f8d2314f2cda/library_600x900_2x.jpg',
+  'legends-of-amberland-iii-the-crimson-tower': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3823520/b095cf2962d0d96591a571b4e2f79562dd7a38e8/library_600x900_2x.jpg',
   'the-temple-of-elemental-evil-re-release': 'https://images.gog-statics.com/734f8a229be127060b0fdf1227068f57f7b094d538b3abcfd8cc1582c6691c40.png',
-  'avernum-the-complete-saga-1-6': 'https://images.gog-statics.com/44d2abebf4eeac7f8e011656406a2f58b218f6728123f1999fcc5ca185ca076f.png',
-  'geneforge-saga': 'https://images.gog-statics.com/7e1a3b759a03126ee8ba0430b5d74e61bb095ea4ef833e8f877612e73a5d9858.png',
+  'geneforge-saga': 'https://cdn.cloudflare.steamstatic.com/steam/apps/200960/library_600x900_2x.jpg',
 };
 
 const wikiCovers = {
@@ -59,6 +58,10 @@ const wikiCovers = {
   'neverwinter-nights-2': 'https://upload.wikimedia.org/wikipedia/en/1/1b/Neverwinter_Nights_2_box_art.jpg',
   'the-temple-of-elemental-evil': 'https://upload.wikimedia.org/wikipedia/en/1/1a/The_Temple_of_Elemental_Evil_Coverart.png',
 };
+
+const generatedCovers = new Set([
+  'avernum-the-complete-saga-1-6',
+]);
 
 const coverDir = new URL('../assets/covers/', import.meta.url);
 const rawDir = new URL('./raw/', import.meta.url);
@@ -196,6 +199,11 @@ async function worker() {
     cursor += 1;
     const game = games[index];
     if (only && !only.has(game.id)) continue;
+    if (generatedCovers.has(game.id)) {
+      results.push({ id: game.id, title: game.title, layout: 'generated' });
+      console.log(String(index + 1).padStart(3, '0'), game.title, '→ generated mosaic');
+      continue;
+    }
     try {
       const source = await getRawSource(game);
       await fs.writeFile(path.join(rawDir.pathname, `${game.id}.source`), source.buffer);

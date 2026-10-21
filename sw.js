@@ -3,7 +3,7 @@
  * Bump CACHE_VERSION whenever the app shell changes in a way that must replace cached files.
  */
 
-const CACHE_VERSION = 'v6';
+const CACHE_VERSION = 'v7';
 const CACHE_NAME = `crpg-codex-${CACHE_VERSION}`;
 
 const APP_SHELL = [

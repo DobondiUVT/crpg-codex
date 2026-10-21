@@ -82,9 +82,10 @@ The development helpers require Node.js and the `sharp` package:
 npm install
 node scripts/make-og.mjs
 node scripts/make-icons.mjs
+node scripts/make-avernum-saga.mjs
 ```
 
-The cover sourcing pipeline is in `scripts/download-covers.mjs`. It is kept for reference and may depend on external storefront URLs that change. The committed covers are the source of truth for the site itself.
+The cover sourcing pipeline is in `scripts/download-covers.mjs`. The Avernum Complete Saga cover is a generated mosaic and is skipped by the downloader. It is kept for reference and may depend on external storefront URLs that change. The committed covers are the source of truth for the site itself.
 
 The social preview can also be regenerated with `node scripts/make-og.mjs`.
 

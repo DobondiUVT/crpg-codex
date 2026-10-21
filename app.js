@@ -202,7 +202,7 @@
      Small renderers
      ------------------------------------------------------------------------ */
 
-  const coverVersion = '2';
+  const coverVersion = '3';
 
   function coverSource(game) {
     return `assets/covers/${game.id}.jpg?v=${coverVersion}`;
